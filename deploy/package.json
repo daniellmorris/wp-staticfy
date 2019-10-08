@@ -1,0 +1,17 @@
+{
+  "name": "wp-staticfy-deployment-code",
+  "version": "1.0.0",
+  "description": "This is a collection of scripts that can be used for managing a wordpress for use as a static site generator. It also contains a script to copy a remote wordpress site to local for development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@pulumi/aws": "^1.4.0",
+    "@pulumi/awsx": "^0.18.11",
+    "@pulumi/pulumi": "^1.1.0",
+    "mime": "^2.4.4"
+  }
+}

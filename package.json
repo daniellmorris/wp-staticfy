@@ -1,0 +1,23 @@
+{
+  "name": "static-wordpress-migration",
+  "version": "1.0.0",
+  "description": "This is a collection of scripts that can be used for managing a wordpress for use as a static site generator. It also contains a script to copy a remote wordpress site to local for development.",
+  "main": "deploy/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@pulumi/aws": "^1.4.0",
+    "@pulumi/awsx": "^0.18.11",
+    "@pulumi/pulumi": "^1.1.0",
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0",
+    "lodash": "^4.17.15",
+    "mime": "^2.4.4",
+    "minimist": "^1.2.0",
+    "mysql-promise": "^5.0.0",
+    "php-serialize": "^3.0.0"
+  }
+}
