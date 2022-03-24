@@ -16,7 +16,7 @@
     "inquirer": "^7.0.0",
     "lodash": "^4.17.15",
     "mime": "^2.4.4",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "mysql-promise": "^5.0.0",
     "php-serialize": "^3.0.0"
   }
